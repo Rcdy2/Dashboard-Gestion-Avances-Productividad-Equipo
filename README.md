@@ -10,7 +10,7 @@ Este repositorio contiene un **dashboard interactivo en Excel** para el seguimie
 - **KPIs de Proyecto:** Avance General (50%), Total HUs (30), HUs Completadas (15), Total Puntos Estimados (120), Total Horas Dedicadas (91).
 - **Avance por Épica:** Seguimiento detallado de HUs totales vs completadas por épica.
 - **Estado por Colaborador:** Matriz de avance individual con recuento de tareas Completadas, En Progreso y Pendientes por cada miembro del equipo.
-- **Productividad Diaria:** Tracking de horas dedicadas por día (1-Nov a 26-Nov) para análisis de capacidad y rendimiento.
+- **Productividad Diaria:** Gestión de horas dedicadas por día (1-Nov a 26-Nov) para análisis de capacidad y rendimiento.
 - **Avance por Prioridad:** Distribución de HUs totales vs completadas segmentadas por prioridad (Alta, Media, Baja).
 - **Retrasos por Épica:** Identificación de HUs con fecha de vencimiento, para gestión de riesgos y cuellos de botella.
 - **Detalle de HUs:** Listado completo de historias de usuario con puntos estimados por cada una.
@@ -32,7 +32,7 @@ Desarrollar una solución de **seguimiento de proyectos (Project Tracking)** en 
 - **Retrasos por Épica:** Mi Asistencia (11 HUs) y Comunicados (6 HUs) con mayor volumen **Posible cuello de botella:** Requiere revisión de asignación de recursos.
 
 ## Pasos Involucrados
-1. **Extracción y Preparación de Datos:** Consolidación de HUs, épicas, colaboradores, estados, fechas y horas desde fuentes de tracking (Jira/Trello/Excel manual).
+1. **Extracción y Preparación de Datos:** Consolidación de HUs, épicas, colaboradores, estados, fechas y horas desde fuentes de gestión (Jira/Trello/Excel manual).
 2. **Modelado en Excel:** Creación de tablas dinámicas para avance por épica, estado por colaborador, productividad diaria y prioridades.
 3. **Cálculo de Métricas:** Implementación de fórmulas para % avance, HUs completadas vs totales, puntos estimados y retrasos.
 4. **Visualización y Dashboard:** Diseño de interfaz con KPIs, matrices de estado, gráficos de productividad y segmentadores para filtrado dinámico.
@@ -52,8 +52,11 @@ Desarrollar una solución de **seguimiento de proyectos (Project Tracking)** en 
 
 ## Empezando
 ```bash
-git clone https://github.com/tuusuario/Dashboard-Gestion-Avances-Productividad-Equipo.git
+  git clone https://github.com/tuusuario/Dashboard-Gestion-Avances-Productividad-Equipo.git
+  ```
+1. Abrir el archivo dashboard reporte de avances.xlsx en Excel 2016 o superior.
+2. Explorar las pestañas: Dashboard principal, Base de Datos HUs, Tablas Dinámicas.
+3. Usar los segmentadores para filtrar por épica, colaborador, prioridad o estado.
 
-1.Abrir el archivo dashboard reporte de avances.xlsx en Excel 2016 o superior.
-Explorar las pestañas: Dashboard principal, Base de Datos HUs, Tablas Dinámicas.
-Usar los segmentadores para filtrar por épica, colaborador, prioridad o estado.
+## Conclusión
+Este dashboard transforma datos crudos de Gestión de proyectos en información accionable para liderazgo técnico y gestión de equipos. Permite visualizar en tiempo real el avance por épica, productividad individual, retrasos y distribución de carga, facilitando decisiones informadas para cumplir objetivos de entrega.
